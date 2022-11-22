@@ -1,0 +1,10 @@
+// Deivid Kovalevskij. Student
+
+Geom( pier,  drug,  n) {
+  if (n > 1) {
+    q = drug / pier
+    return Geom(drug, drug * q, n - 1)
+  } else {
+    return pier
+  }
+}
