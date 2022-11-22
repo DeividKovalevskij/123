@@ -1,0 +1,9 @@
+// Deivid Kovalevskij. Student
+
+Liczba( n, a) {
+  if(pow(2, a-1) <= n && n < pow(2,a)){
+    return a;
+  }
+  else
+    return Liczba(n, a+1);
+}
