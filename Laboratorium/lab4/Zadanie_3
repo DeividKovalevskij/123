@@ -1,0 +1,9 @@
+// Deivid Kovalevskij. Student
+
+Aryt( pier,  krok,  n) {
+  if (n > 1) {
+    return Aryt(pier + krok, krok, n-1);
+  } else {
+    return pier;
+  }
+}
