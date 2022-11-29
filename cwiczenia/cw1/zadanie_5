@@ -1,0 +1,18 @@
+// Deivid Kovalevskij. Student
+
+class Node {
+public:
+
+   int dane;
+    
+return 0;
+}
+
+struct Node {
+
+   int dane;
+   struct Node* next;
+   struct Node* prev;
+   
+   return 0;
+}
