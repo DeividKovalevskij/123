@@ -1,0 +1,4 @@
+ile_lat(r_uro, r_ter){
+  lat = r_ter - r_uro
+  return lat
+}
