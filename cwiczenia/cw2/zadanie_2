@@ -1,0 +1,11 @@
+// Deivid Kovalevskij. Student
+
+while(dzielnik<liczba/2){
+    a=liczba%dzielnik;
+    b=liczba/dzielnik;
+    lista[0][dzielnik-2]=a;
+    lista[1][dzielnik-2]=b;
+    dzielnik++;
+}
+
+return lista;
