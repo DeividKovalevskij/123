@@ -1,3 +1,5 @@
+// Deivid Kovalevskij. Student
+
 MinMax(tabela, ilosc){
   min = tabela[0]
   max = tabela[0]
