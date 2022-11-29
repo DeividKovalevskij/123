@@ -1,0 +1,6 @@
+// Deivid Kovalevskij. Student
+
+zostalo(il_dni, dzien){
+  zost = il_dni - dzien
+  return zost
+}
