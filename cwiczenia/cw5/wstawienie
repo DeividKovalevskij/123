@@ -1,0 +1,7 @@
+function insertionSort(array, size) {
+   for (i= 0; i < n - 1; i++) {
+		for (j = i; j > 0 && prior(array[j], array[j-1]); j--) {
+			swap(array, j, j-1);
+    }
+  }
+}
