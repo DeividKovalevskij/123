@@ -1,0 +1,33 @@
+function partition(array, left, right, pivot) {
+   while (left <= right) {
+      while (prior(pivot, array[left])) {
+         left++;
+      }
+      while (prior(array[right], pivot)) {
+         right--;
+      }
+      if (left <= right) {
+			  swap(array, left, right);
+              left++;
+              right--;
+     }
+   }
+   return left;
+}
+
+function findPivot(array, i, j) {
+	return ((i + j ) / 2);
+}
+
+function quickSort(array, left, right) {
+   if (right <= left) {
+		return;
+   }
+
+   pivotIndex = findPivot(array, left, right); 
+   swap(array, pivotIndex, right);
+   k = partition(array, left- 1, right, array[right]);
+   swap(array, k, right);
+   quickSort(array, left, k - 1);
+   quickSort(array, k + 1, right);
+}
