@@ -1,0 +1,79 @@
+function mergeSort(array, tempArray, left, right) {
+   if (left == right) return;
+   mid = (left + right) / 2;
+   mergeSort(array, temp, left, mid);
+   mergeSort(array, temp, mid+1, right);
+   for (i= left; i < right1; i++) {
+     temp[i] = array[i];
+   }
+   i1 = left; i2 = mid + 1;
+   for (curr = left; curr <= right; curr++) {
+     if (i1 == mid + 1) {
+		array[curr] = temp[i2++];
+     } else if (i2 > right) {
+      	array[curr] = temp[i1++];
+     } else if (prior(temp[i1], temp[i2])) {
+     	array[curr] = temp[i1++];
+     } else {
+       array[curr] = temp[i2++];
+     }
+   }
+}
+
+function mergeSortOpt(array, tempArray, left, right) {
+   if (left - right <= THRESHOLD) {
+     insertionSort(&array[left], right-left+1);
+   }
+   i, k, j, mid = (left + right) / 2;
+   mergeSort(array, temp, left, mid);
+   mergeSort(array, temp, mid+1, right);
+   for (i= mid; i >= left; i--) {
+     temp[i] = array[i];
+   }
+   for (j= 1; j <= right - mid; j++) {
+     temp[right - j + 1] = array[j + mid];
+   }
+   for (i= left, j= right, k= left; k <= right; k++) {
+     if (prior(temp[i], temp[j])) {
+		array[k] = temp[i++];
+     } else {
+      	array[k] = temp[j--];
+     }   
+   }
+}
+
+function merge(array, size1, array2, size2) {
+   i= 0, k = 0, j = 0;
+   result[size1 + size2] // memory allocation
+
+   while((i < size1) && (j < size2)) {
+if(array[i] < array2[j]) {
+  result[k++] = array[i++];
+        } else {
+          result[k++] = array2[j++];
+        }
+   }
+   while(i < size1) result[k++] = array[i++];
+   while(j < size2) result[k++] = array2[j++];
+
+   return result;
+}
+
+function subArray(array, start, end) {
+    size = end - start;
+	result[size];
+    i = 0;
+	while (i < size) {
+result[i] = array[start + i];
+i++;
+}
+return result;
+}
+
+function mergeSort(array, size) {
+   if (size <= 1) return subArray(array, 0, size);
+
+   m = size / 2; 
+
+   return merge(mergeSort(subArray(array, 0, m), m), m, mergeSort(subArray(array, m, size), size - m), size - m);
+}
