@@ -9,9 +9,7 @@ struct Item {
 };
 
 int printList(struct Item *head);
-
 void insert(float item, struct Item **end);
-
 void removeItem(int pos, struct Item **head);
 
 void main(void) {
