@@ -1,0 +1,20 @@
+function countingSort(array, size, max) {
+   result = []; count = []
+   for (i = 0; i < max; i++) {
+     count[i] = 0; 
+   }
+
+   for (j = 0; j < size; j++) {
+     count[array[j]] = array[j] + 1; 
+   }
+
+   for (i = 0; i < max; i++) {
+     count[i] = count[i] + count[i - 1]; 
+   }
+
+   for (j = size - 1; j > 0; j--) {
+     result[count[array[j]] - 1] = array[j]; 
+	 count[array[j]] = count[array[j]] - 1;
+   }
+   return result;
+}
