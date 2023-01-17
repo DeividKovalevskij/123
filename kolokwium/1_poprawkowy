@@ -1,0 +1,52 @@
+Pytanie 17) 'Jakie z podanych operacji niemozliwe w liscie dwukierunkowej.': 
+Odpowiedzi: 
+        h) wszystko nieprawidłowe 
+
+
+Pytanie 16) 'Jakie z podanych operacji niemozliwe w liscie jednekierunkowej.': 
+Odpowiedzi: 
+        f) previous (przejście od taila do head) 
+
+
+Pytanie 4) 'Jaka złożoność czasowa z podanych niżej jest dla poszukiwania najmniejszej liczby w tablice niesortowanej': 
+Odpowiedzi: 
+        d) 
+O(n)
+
+
+Pytanie 3) 'Jaka z podanych definicji jest definicja złożoności czasowej algorytmu?': 
+Odpowiedzi: 
+        d) szybkość opracowania wszystkich operacji algorytmu 
+
+
+Pytanie 2) 'Jaka podanych niżej nie jest bazowa struktura danych': 
+Odpowiedzi: 
+        a) Graph 
+
+
+Pytanie 1) 'Mamy funkcja
+T(n)=(n+2)2−3n3+2n+158
+. Jaka jest złożoność asymptotyczna ?': 
+Odpowiedz: 
+        a) 
+Θ(n3)
+
+
+Pytanie 4) 'Czy wskazany algorytm jest całkowicie poprawny?': 
+Pseudokod: 
+```c
+findMax(array, len) {
+    i = 0, max = array[0];
+    
+    while (i < len) {
+      if (max < array[i]) {
+        max = array[i];
+      }
+      i = i + 1;
+    }
+    
+    return max;
+}
+```
+Odpowiedz: 
+        b) Nie 
