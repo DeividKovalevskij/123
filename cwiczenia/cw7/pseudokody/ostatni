@@ -1,0 +1,8 @@
+function coinChange(coinList, n, value, dp) {
+  coinsRequired = minCoins(coinList, n, value, dp);
+  
+  if(coinsRequired == INT_MAX) {
+	return -1;
+  }	
+  return coinsRequired;
+}
