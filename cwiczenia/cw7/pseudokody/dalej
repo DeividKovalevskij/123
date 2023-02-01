@@ -1,0 +1,17 @@
+Function minCoins(coinList, n, value, dp) {
+  if (dp[value] != -1) return dp[value];
+  
+  coinsRequired = INT_MAX;	
+  for (i = 0; i < l; i++) {
+if (coinList[i] <= value) {
+	subRes = minCoins(coinList, n, value - coinsList[i], dp);
+if (subRes != INT_MAX && subRes + 1 < coinsRequired) {
+	coinsRequired = subRes + 1;
+}
+}
+
+  }
+  dp[value] = coinsRequired;
+	
+  return coinsRequired;
+}
