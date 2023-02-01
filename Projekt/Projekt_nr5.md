@@ -156,9 +156,9 @@ int main() {
 
 ```
 
-| insert_node  | 10 | 15 | 19 | 20 |
-| ------- | ------- | --------- | -------- | --------- |
-| Odp     |  20    |   19   |   15   |   10   |
+| insert_code  | 10, 15, 19, 20 |
+| ------------- | ------------- |
+| Odp  | 20, 19, 15, 10  |
 
 Algorytm ten odwiedza każdy węzeł na liście, rozpoczynając od węzła głównego, podążając za kolejnymi 
 wskaźnikami i przetwarzając dane w każdym węźle, aż do końca listy. Złożoność czasowa tego algorytmu 
