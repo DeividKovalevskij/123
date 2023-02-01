@@ -1,0 +1,17 @@
+function minCoins(coinList, n, value) {
+  S[MAX_INT];
+  C = sort(coinList);
+  j=0;
+  for (i = n - 1; i >= 0; i--) {
+while (value >= C[i]) {
+	S[j] = C[i];
+	value = value - C[i];
+j++;	
+}
+if (n == 0) {
+	break;
+}
+  }
+  if (value > 0) return 1;
+  return S;	
+}
