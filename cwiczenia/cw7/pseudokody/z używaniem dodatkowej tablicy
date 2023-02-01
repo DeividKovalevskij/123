@@ -1,0 +1,19 @@
+function minCoinsCount(coinList, n, value) {
+  int table[value + 1];
+  for (i = 0; i < value; i++) table[i] = INT_MAX;
+	
+  for (i = 0; i < value; i++) {
+for (j = 0; j < n; j++) {
+if (coinList[j] <= i) {
+	subRes = table[i - coinsList[j]]
+
+if (subRes != INT_MAX && subRes + 1 < table[i]) {
+	table[i] = subRes + 1;
+}
+}
+}
+  }
+  if (table[value] == INT_MAX) return -1; 
+	
+  return table[value];
+}
