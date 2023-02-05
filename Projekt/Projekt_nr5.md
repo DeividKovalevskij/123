@@ -53,9 +53,8 @@ Oznacza to, że wszystkie zespoły będą dostępne do wspólnej pracy co 12 dni
 
 ### -Realizacja w C dla algorytmu NWW
 
-```
-[link]https://github.com/DeividKovalevskij/algorytmy-i-struktury-dannych/blob/a109d8358f54d6df918658e062742e219d8e3cb1/Projekt/Projekt_nr5.md
-```
+[Algorytm wyznaczania najmniejszej wspólnej wielokrotności.](https://github.com/DeividKovalevskij/algorytmy-i-struktury-dannych/blob/a109d8358f54d6df918658e062742e219d8e3cb1/Projekt/Projekt_nr5.md_)
+
 ### Jake dane na wejsciu w algorytm, jakie na wyjsciu:
 | Wejscie  | 50 i 20 | 100 i 251 | 499 i 12 | 1523 i 12 |
 | ------- | ------- | --------- | -------- | --------- |
