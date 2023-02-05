@@ -153,9 +153,8 @@ W każdym razie, kluczowe jest zrozumienie, że złożoność czasowa algorytmu 
 Przykład użycia algorytmu przechodzenia przez listę dwukierunkową może być np. wyszukiwanie określonego elementu na liście. Algorytm może zacząć od początku lub końca listy i przesuwać się w kierunku przeciwnym, aż znajdzie pożądany element lub dojdzie do końca listy.
 ### -Realizacja w C dla algorytmu przechodzenia:
 
-```
----Link do kodu---
-```
+[Algorytm przechodzenia przez listę dwukierunkową](https://github.com/DeividKovalevskij/algorytmy-i-struktury-dannych/blob/529a694156fdc48878d38103c61d3e7fd31eb82a/Projekt/Algorytm%20przechodzenia%20przez%20list%C4%99%20dwukierunkow%C4%85.c)
+
 ## Jake dane na wejsciu w algorytm, jakie na wyjsciu:
 | Wejscie  | 10, 15, 19, 20 |
 | ------------- | ------------- |
