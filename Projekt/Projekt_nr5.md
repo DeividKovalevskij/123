@@ -113,9 +113,8 @@ To tylko jeden przykład, ale algorytmy liczenia słów mogą być używane w r�
 
 ### -Realizacja w C dla algorytmu liczenia słów:
 
-```
----Link do kodu---
-```
+[Algorytm zliczania wyrazów](https://github.com/DeividKovalevskij/algorytmy-i-struktury-dannych/blob/529a694156fdc48878d38103c61d3e7fd31eb82a/Projekt/Algorytm%20zliczania%20wyraz%C3%B3w.c)
+
 ## Jake dane na wejsciu w algorytm, jakie na wyjsciu (i przyklad kiedy wyrazy sa kilka razy):
 | Wejscie  | Deiwid Kovalevskij | Uniwersytet w Bialymstoku | Algorytm zliczania wyrazow w C|
 | ------- | ------- | --------- | -------- |
