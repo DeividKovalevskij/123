@@ -1,0 +1,169 @@
+
+Pytanie testowe / 29) 'Jake etapu mozliwy w regułe dziel i rządź:': 
+Odpowiedzi: 
+        g) wszystko nieprawidłowe 
+
+
+Pytanie testowe / 27) 'Złożoność sortowania pozyzyjnego (radix sort):': 
+Odpowiedzi: 
+        b) 
+𝐴
+(
+𝑛
+)
+=
+𝛩
+(
+𝑛
++
+𝑚
+)
+
+
+Pytanie testowe / 22) 'Złożoność sortowania babelkowego (bubble sort):': 
+Odpowiedzi: 
+        a) 
+𝐴
+(
+𝑛
+)
+=
+𝛩
+(
+𝑛
+2
+)
+
+
+Pytanie testowe / 21) 'Jakie sa rodzaje algorytmu śledzenia wstecznego?': 
+Odpowiedzi: 
+        a) decyzyjny 
+b) obliczalny 
+c) optymalizacji 
+
+
+Pytanie testowe / 17) 'Jakie z podanych operacji niemozliwe w liscie jednekierunkowej.': 
+Odpowiedzi: 
+        a) push (dodanie elementa) 
+b) pop (wyjmowanie elementa) 
+c) print (wyswetlenia elementow) 
+d) search (poszukiwanie elementa) 
+e) next (przejście od head do tail) 
+
+
+Pytanie testowe / 16) 'Jaka z podanych definicji jest definicja algorytmu śledzenia wstecznego.': 
+Odpowiedzi: 
+        a) Algorytm, który wybiera najlepszy wybór na każdym kroku, zamiast uwzględnienie wszystkich sekwencji kroków, które mogą prowadzić do optymalnego rozwiązania. 
+
+
+Pytanie testowe / 14) 'Jaki kroki nieprzepisowe jest w metoda indukcji pętli przy udowodnieniu poprawności algorytmu?': 
+Odpowiedzi: 
+        a) użyć indukcji, aby pokazać resztę 
+d) znajdź p, niezmiennik pętli 
+e) pokazać przypadek podstawowy dla p 
+
+
+Pytanie testowe / 13) 'Jaki warunek odpowiada niezmienniku pętli?': 
+Odpowiedzi: 
+        b) jeśli predykat jest spełniony przed wejściem w pewną (dowolną) iterację pętli to jest także spełniony po wyjściu z tej iteracji pętli 
+
+
+Pytanie testowe / 9) 'Przy jakich warunkach algorytm jest całkowicie poprawny?': 
+Odpowiedzi: 
+        d) algorytm przy zatrzymaniu zwraca poprawny wynik 
+
+
+Pytanie testowe / 5) 'Jaka z podanych definicji jest definicja rekurencji.': 
+Odpowiedzi: 
+        f) wszystko nieprawidłowe 
+
+
+Pytanie zlozonosc / 1) 'Mamy funkcja
+𝑇
+(
+𝑛
+)
+=
+(
+𝑛
++
+2
+)
+2
+−
+3
+𝑛
+3
++
+2
+𝑛
++
+158
+. Jaka jest złożoność asymptotyczna ?': 
+Odpowiedz: 
+        a) 
+𝛩
+(
+𝑛
+3
+)
+
+
+Pytanie poprawnosc / 4) 'Czy wskazany algorytm jest całkowicie poprawny?': 
+Pseudokod: 
+```c
+findMax(array, len) {
+    i = 0, max = array[0];
+    
+    while (i < len) {
+      if (max < array[i]) {
+        max = array[i];
+      }
+      i = i + 1;
+    }
+    
+    return max;
+}
+```
+Odpowiedz: 
+        a) Tak 
+
+
+Pytanie rekursja / 1) 'Obliczyć następne rekurencja, w której
+𝑇
+(
+1
+)
+=
+1
+i
+𝑇
+(
+𝑛
+)
+=
+3
+𝑇
+(
+𝑛
+/
+3
+)
++
+𝑛
+dla
+𝑛
+>=
+2
+ jest rowny': 
+Odpowiedzi: 
+        c) 
+𝛩
+(
+𝑛
+log
+⁡
+(
+𝑛
+)
+)
