@@ -1,0 +1,13 @@
+Pseudokod:
+
+    1. Przypisz n do zmiennej całkowitej
+    2. Zainicjuj zmienne:
+        count = 0 - licznik kolejnych cyfr 1
+        max_count = 0 - licznik maksymalnej liczby kolejnych cyfr 1
+    3. Dopóki n > 0:
+    a) Oblicz resztę z dzielenia n przez 2 i przypisz ją do zmiennej bit
+    b) Podziel n przez 2 i przypisz wynik do n
+    c) Jeśli bit == 1, zwiększ count o 1
+    d) Jeśli bit == 0 lub n == 0, porównaj count z max_count i przypisz większą wartość do max_count
+    e) Powtórz kroki a-d dla pozostałych bitów w liczbie binarnej
+    4. Wyświetl wartość max_count
