@@ -1,12 +1,10 @@
-//Student. Deivid Kovalevskij
-
 #include <stdio.h>
 
 int main() {
     int n, binary = 0, max_consecutive_ones = 0, current_consecutive_ones = 0;
 
     printf("Podaj liczbę całkowitą w systemie dziesiętnym: ");
-    scanf("%d", &n);
+    scanf("%d", &n); // dane wejsciowe
 
     // Konwersja na binarny system liczbowy
     int i = 1;
@@ -29,7 +27,7 @@ int main() {
         binary /= 2;
     }
 
-    printf("Maksymalna liczba kolejnych cyfr 1 w reprezentacji binarnej to: %d\n", max_consecutive_ones);
+    printf("Maksymalna liczba kolejnych cyfr 1 w reprezentacji binarnej to: %d\n", max_consecutive_ones); // dane wyjsciowe 
 
     return 0;
 }
