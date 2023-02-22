@@ -1,0 +1,5 @@
+Złożoność czasowa tego algorytmu wynosi O(log n),
+gdzie n to liczba całkowita bazowa 10. Algorytm ten działa poprawnie,
+ponieważ iteruje po kolejnych bitach w reprezentacji binarnej liczby i liczy najdłuższy ciąg jednek,
+który pojawił się dotychczas. Algorytm jest całkowicie poprawny dla dodatnich liczb całkowitych,
+ale może działać niepoprawnie dla ujemnych liczb całkowitych ze względu na zastosowany w nim system reprezentacji liczb ujemnych.
